@@ -18,12 +18,14 @@ public class PersonItemProcessor implements ItemProcessor<Person, Person> {
         System.out.println("teste commit github4 ");
         System.out.println("teste commit github5 ");
          System.out.println("teste commit github6 ");
+         System.out.println("teste commit github7 ");
         final String firstName = person.getFirstName().toUpperCase();
         final String lastName = person.getLastName().toUpperCase();
         System.out.println("teste commit eclipse2  ");
         System.out.println("teste commit eclipse3  ");
         System.out.println("teste commit eclipse4  ");
         System.out.println("teste commit eclipse5  ");
+        
 
         final Person transformedPerson = new Person(firstName, lastName);
 
