@@ -15,6 +15,7 @@ public class PersonItemProcessor implements ItemProcessor<Person, Person> {
     public Person process(final Person person) throws Exception {
     	System.out.println("processor******* ");
         System.out.println("teste commit github3 ");
+        System.out.println("teste commit github4 ");
         final String firstName = person.getFirstName().toUpperCase();
         final String lastName = person.getLastName().toUpperCase();
         System.out.println("teste commit eclipse2  ");
