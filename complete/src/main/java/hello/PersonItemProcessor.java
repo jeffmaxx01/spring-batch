@@ -20,6 +20,8 @@ public class PersonItemProcessor implements ItemProcessor<Person, Person> {
         final String firstName = person.getFirstName().toUpperCase();
         final String lastName = person.getLastName().toUpperCase();
         System.out.println("teste commit eclipse2  ");
+        System.out.println("teste commit eclipse3  ");
+        System.out.println("teste commit eclipse4  ");
 
         final Person transformedPerson = new Person(firstName, lastName);
 
