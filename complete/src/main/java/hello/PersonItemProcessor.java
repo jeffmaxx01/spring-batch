@@ -23,6 +23,7 @@ public class PersonItemProcessor implements ItemProcessor<Person, Person> {
         System.out.println("teste commit eclipse2  ");
         System.out.println("teste commit eclipse3  ");
         System.out.println("teste commit eclipse4  ");
+        System.out.println("teste commit eclipse5  ");
 
         final Person transformedPerson = new Person(firstName, lastName);
 
